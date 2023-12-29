@@ -1,0 +1,148 @@
+*
+{
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+body
+{
+    background-color: #FBFBFB;
+}
+.back-img
+{
+    background-image:url("../IMAGES/netflix-1024x576.jpeg");
+   height: 622px;
+   /* object-fit: scale-down; */
+   background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0,0.1)),
+    url(https://assets.nflxext.com/ffe/siteui/vlv3/a1dc92ca-091d-4ca9-a05b-8cd44bbfce6a/f9368347-e982-4856-a5a4-396796381f28/RS-en-20191230-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+
+ /* overflow: hidden; */
+}
+
+/* .back-img
+ {
+  position: relative;
+  overflow: hidden;
+}
+
+.back-img::before,
+.back-img::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 20px; /* Adjust the height as needed */
+  /*
+  background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1));
+}
+
+.back-img::after 
+{
+  top: auto;
+  bottom: 0;
+}  */
+
+
+.netflix
+{
+    color: red;
+    font-weight: bolder;
+    font-size: 40px;
+}
+.langSelector
+{
+    margin-top: 14px;
+    padding:4px ;
+    background-color: transparent;
+    color: white;
+}
+.signin>p>a
+{
+   
+    background-color: rgb(218, 0, 0);
+    /* width: 70px; */
+    border: 1px solid rgb(226, 0, 0);
+    border-radius: 4px;
+    color: white;
+    padding: 5px;
+    text-decoration-line: none;
+    font-size: 16px;
+}
+.signin>p
+{
+    margin-top: 19px;
+}
+.signin>p>a:hover
+{
+    text-decoration-line: none;
+    color: rgb(227, 227, 227);
+}
+.Headings
+{
+    color: white;
+    font-weight: bold;
+    margin-top: 80px;
+}
+.subheading1
+{
+    color: white;
+}
+.email
+{
+   color: white;
+   /* margin-left: 340px; */
+   
+}
+input
+{
+    padding: 10px;
+    width: 60%;
+    border: solid white;
+    border-top-left-radius:3px ;
+    border-bottom-left-radius: 3px;
+}
+.email-right
+{
+    color: white;
+    background-color: rgb(208, 10, 10)
+    ;
+    padding: 14px;
+    border-top-right-radius:3px ;
+    border-bottom-right-radius: 3px;
+}
+.email-right>a
+{
+    text-decoration: none;
+    color: white;
+}
+.email-right>a:hover
+{
+    text-decoration: none;
+    color: rgb(233, 230, 230);
+}
+.subheading2
+{
+    color: white;
+    margin-top:10px;
+    /* margin-left:90px; */
+}
+.footer1
+{
+    margin-top: 17px;
+    color: white;
+    /* font-weight: bolder; */
+    /* font-size: 20px; */
+}
+.footer2
+{
+    color: white;
+    font-size: 16px;
+}
+@media only screen and (max-width:576px) {
+    .movies
+    {
+        display: none;
+    }
+
+    
+}

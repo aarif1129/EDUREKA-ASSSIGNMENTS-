@@ -1,0 +1,339 @@
+*
+{
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+body
+{
+    background-color: #FBFBFB;
+}
+.back-img
+{
+    background-image:linear-gradient(to bottom, #9D0E0E00 0%, #4F0707 100%),
+    url("../IMAGES/background-image.png");
+   height: 450px;
+}
+
+.login,.cac
+{
+    text-decoration: none;
+    color:#FFFFFF ;
+    opacity: 0.9;
+}
+.login:hover,.cac:hover
+{
+    text-decoration: none;
+    color: #ebebeb;
+}
+.cac
+{
+    border: 1px solid #FFFFFF;
+    border-radius: 3px;
+    padding: 9px;
+}
+.logo 
+{
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    font-size: 70px;
+    border-radius: 50%;
+    color:#EB2929;
+    font-weight: 600;
+    padding-top: 7px;
+}
+.top
+{
+    margin-top: 18px;
+}
+.restaurant-title
+{
+    /* color: #EB2929; */
+    font: normal normal 600 36px/55px Poppins;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+.locationDropdown
+{
+    font: normal normal normal 15px/23px Poppins;
+    letter-spacing: 0px;
+    color: #636F88;
+    background: #FFFFFF;
+    border: solid white;
+    border-radius: 3px;
+    /* width: 40%; */
+    
+
+}
+.restaurantInput
+{
+    font: normal normal normal 15px/23px Poppins;
+    color: #636F88;
+    /* background: #FFFFFF; */
+    /* margin-top: 8px; */
+    /* padding-right: 15px;
+    padding-left: 15px; */
+    border: solid white;
+    border-radius: 3px;
+    /* width: 50%; */
+}
+.restaurantSelector
+{
+    position: relative;
+}
+.locationDropdown
+    {
+        padding: 10px;
+        
+       /* margin-right: 110px; */
+    }
+    .restaurantInput
+    {
+        padding: 10px;
+        /* margin-left: 140px; */
+    }
+.searchIcon
+{
+    position: absolute;
+    top: 0;
+    padding: 12px;
+}
+.quicksearch
+{
+    font: normal normal bold 30px/46px Poppins;
+    color: #192F60;
+    font-weight: 600;
+    margin-left: 10px;
+}
+.quicksearch-subheading
+{
+    font: normal normal normal 18px/27px Poppins;
+    letter-spacing: 0px;
+    color: #8C96AB;
+    margin-left: 10px;
+}
+.images
+{
+   /* background-color: #EB2929; */
+   display: flex;
+   /* flex-wrap: wrap; */
+   overflow: hidden;
+   /* width: 400px; */
+   
+}
+.images
+{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 6px #00000029;
+}
+#meal1
+{
+    /* float: left; */
+    width: 170px;
+    height: 151px;
+   object-fit: cover;
+}
+.headings >span
+{
+    font: normal normal bold 18px/27px Poppins;
+    letter-spacing: 0px;
+    color: #192F60;
+}
+.headings >p
+{
+    font: normal normal normal 14px/21px Poppins;
+    letter-spacing: 0px;
+    color: #8C96AB;
+    opacity: 1;
+}
+@media only screen and (max-width:576px) {
+    #meal1
+    {
+      
+        width: 150px ; 
+        height: 150px ;
+        object-fit: cover;
+    }
+    .headings
+    {
+        padding: 30px 0px 0px 30px;
+        
+    }
+    .blank
+    {
+        display: none;
+    }
+    .login-signup-row
+    {
+        display: none;
+    }
+    .logo
+    {
+        width: 100px;
+        height: 100px;
+        font-size: 55px;
+        padding-top: 10px;
+    }
+    .top 
+    {
+        padding-top: 20px;
+    }
+    .restaurant-title
+    {
+        font: normal normal 400 25px/40px Poppins;
+    }
+    .images
+    {
+        margin: 7px;
+    }
+    .locationDropdown{
+        margin-right: 90px;
+        margin-bottom: 15px;
+    }
+    .restaurantSelector
+    {
+        position: absolute;
+        left: 150px;
+    }
+    .quicksearch,.quicksearch-subheading
+    {
+        margin-left: 19px;
+    }
+    
+}
+
+  @media only screen and (width>576px) and (width<768px) {
+    .headings
+    {
+        padding: 30px 0px 0px 30px;
+        
+    }
+    .restaurant-title
+    {
+        font: normal normal 35px/47px Poppins;
+
+    }
+    .top
+    {
+        margin-top: 20px;
+    } 
+    .images
+    {
+        margin: 7px;
+    }
+    .quicksearch,.quicksearch-subheading
+    {
+        margin-left: 19px;
+    }
+    .locationDropdown{
+        margin-right: 190px;
+        margin-bottom: 15px;
+    }
+    .restaurantSelector
+    {
+        position: absolute;
+        left: 150px;
+    }
+    .quicksearch,.quicksearch-subheading
+    {
+        margin-left: 19px;
+    }
+}
+ @media only screen and (width>768px) and (width<992px){
+    #meal1
+    {
+        width: 210px ; 
+        height: 176px;
+        object-fit: cover;
+    }
+    .meals-bar-row2
+    {
+        margin-top: 8px;
+    }
+    .images
+    {
+        display: block;
+    }
+    #meal1
+    {
+        width: 300px;
+    }
+    .headings
+    {
+        margin:10px 0px 0px 20px ;
+    }
+    .meals-bar-row2
+    {
+        margin-top: 20px;
+    }
+}
+ @media only screen and (width>992px) and (width<1200px)
+{
+    #meal1
+    {
+
+        width: 150px;
+        height: 140px;
+        object-fit: cover; 
+    }
+    .meals-bar-row2
+    {
+        margin-top: 20px;
+    }
+    .headings
+    {
+        margin: 10px 0px 0px 30px;
+    }
+}
+@media only screen and (width>1200px)
+{
+    #meal1
+    {
+        
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+        
+    }
+    .headings
+    {
+        margin: 10px 0px 0px 10px;
+    }
+    .meals-bar-row2
+    {
+        margin-top: 20px;
+    }
+}
+/*
+@media only screen and (min-width:1400px)
+{
+    .locationDropdown
+    {
+        padding: 12px;
+        margin-top: 10px;
+
+    }
+    .restaurantInput
+    {
+        padding: 12px;
+    }
+    #meal1
+    {
+   
+        width: 160px;
+        height: 150px;
+        object-fit: cover;
+        
+    }
+    .headings
+    {
+        margin-left: 30px;
+        margin-top: 20px;
+    }
+    .meals-bar-row2
+    {
+        margin-top: 20px;
+    }
+} */

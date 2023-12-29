@@ -1,0 +1,270 @@
+        header
+        {
+            background-color: rgb(205, 13, 13);
+            height: 55px;
+        }
+        #header
+        {
+            display: flex;
+            
+        }
+        #logoback {
+            background-color: white;
+            top: 13px;
+            left: 74px;
+            width: 47px;
+            height: 46px;
+            position: absolute;
+            border-radius: 50%;
+        }
+        #logotext
+        {
+            font-size: 38px;
+            left: 4px;
+            position: absolute;
+            font-weight: bold;
+            top: 8px;
+            color: red;
+        }
+        #logins
+        {
+            position: absolute;
+            right: 75px;
+            top: 26px;
+        }
+        #login
+        {
+            color: #FFFFFF;
+            letter-spacing: 1px;
+            /* right: 10px; */
+            margin-right: 21px;
+            font-size: 17px;
+            text-decoration-line: none;
+        }
+        #createacc
+        {
+            color: #FFFFFF;
+            border: 1px solid #FFFFFF;
+            padding: 9px;
+            letter-spacing: 1px;
+            border-radius: 5px;
+            font-size: 17px;
+            text-decoration-line: none;
+        }
+        section
+        {
+            position: relative;
+            padding: 34px 76px;
+            width: 86%;
+            position: relative;
+        }
+        #main-text
+        {
+            color: #192F60;
+            font-size: 30px;
+            font-weight: 600;
+            margin-bottom: 21px;
+            letter-spacing: 1px;
+        }
+        #filter
+        {
+            width: 260px;
+            height: 682px;
+            background: #FFFFFF 0% 0% no-repeat padding-box;
+            box-shadow: 0px 3px 9px #00000029;
+            border-radius: 2px;
+        }
+        #result1
+        {
+            top: 91px;
+            left: 372px;
+            width: 794px;
+            height: 291px;
+            background: #FFFFFF 0% 0% no-repeat padding-box;
+            box-shadow: 0px 3px 9px #00000029;
+            position: absolute;
+            border-radius: 2px;
+        }
+        #result2
+        {
+            top: 411px;
+            left: 372px;
+            width: 794px;
+            height: 291px;
+            background: #FFFFFF 0% 0% no-repeat padding-box;
+            box-shadow: 0px 3px 9px #00000029;
+            position: absolute;
+            border-radius: 2px;
+        }
+        #paging
+        {
+            position: absolute;
+            left: 597px;
+            top: 732px;
+            display: flex;
+        }
+        .pgno
+        {
+            width: 36px;
+            height: 28px;
+            border: 1px solid #8C96AB;
+            border-radius: 7px;
+            opacity: 1;
+            text-decoration: none;
+            text-align: center;
+            padding-top: 10px;
+            margin: 5px;
+            color: #8C96AB;
+        }
+        #desrip
+        {
+            padding: 25px;
+        }
+        #text
+        {
+            height: 24px;
+            text-align: left;
+            font: normal normal 600 18px/25px Poppins;
+            letter-spacing: 0px;
+            color: #192F60;
+        }
+        #textloc
+        {
+            height: 28px;
+            text-align: left;
+            font: normal normal normal 15px/23px Poppins;
+            letter-spacing: 0px;
+            color: #192F60;
+            opacity: 1;
+        }
+        #dropdown
+        {
+            width: 208px;
+            height: 35px;
+            border: 1px solid #8C96AB;
+            border-radius: 3px;
+            opacity: 1;
+            margin-bottom: 18px;
+            padding-left: 19px;
+            color: #8C96AB;
+
+        }
+        #cusine
+        {
+            width: 52px;
+            height: 26px;
+            font: normal normal normal 16px/21px Poppins;
+            letter-spacing: 0px;
+            color: #192F60;
+            opacity: 1;
+            font-weight: 600;
+        }
+        span
+        {
+            font: normal normal normal 17px/27px Poppins;
+            letter-spacing: 0px;
+            color: #8C96AB;
+            margin-left: 5px;
+        }
+        #cost >p
+        {
+            width: 100px;
+            height: 12px;
+            font: 600 16px / 21px Poppins;
+            letter-spacing: 0px;
+            color: rgb(25, 47, 96);
+            opacity: 1;
+        }
+        #sort>p
+        {
+            width: 33px;
+            height: 12px;
+            text-align: left;
+            font: normal normal 600 18px/27px Poppins;
+            letter-spacing: 0px;
+            color: #192F60;
+            opacity: 1;
+        }
+        #subdescription
+        {
+            margin: 37px 0px 0px 37px;
+        }
+        #subdescription > img
+        {
+            height: 120px;
+            width: 120px;
+            border-radius: 24px;
+            overflow: hidden;
+        }
+        #subheading
+        {
+            left: 196px;
+            position: absolute;
+            top: 34px;
+        }
+        #subheading>h3
+        {
+            height: 8px;
+            font: normal normal 600 25px/17px Poppins;
+            color: #192F60;
+        }
+        #subheading>span
+        {
+            width: 40px;
+            height: 17px;
+            font: normal normal medium 16px/30px Poppins;
+            color: #192F60;
+            display: block;
+            line-height: normal;
+            font-size: 16px;
+        }
+        #subheading>p
+        {
+            width: 370px;
+            height: 19px;
+            font: normal normal normal 16px/13px Poppins;
+            color: #636F88;
+            left: 3px;
+            position: absolute;
+        }
+        hr
+        {
+            width: 726px;
+            height: 0px;
+            border: 1px solid #DEDFE5;
+            opacity: 1;
+            left: 38px;
+            position: absolute;
+            top: 175px;
+        }
+        .sub
+        {
+            display: inline-block;
+            position: absolute;
+            left: 1opx;
+            top: 199px;
+            left: 36px;
+        }
+        .sub1
+        {
+            position: absolute;
+            left: 1opx;
+            top: 234px;
+            left: 36px;
+        }
+        .cus
+        {
+            font: normal normal normal 18px/30px Poppins;
+            color: #636F88;
+        }
+        .cus1
+        {
+            font: normal normal normal 18px/30px Poppins;
+            left: 167px;
+            position: absolute;
+            color: #192F60;
+        }
+
+
+        
+    
